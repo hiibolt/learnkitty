@@ -36,6 +36,9 @@
             rustfmt
             clippy
             openssl.dev
+            bun
+            nodejs
+            nodePackages.npm
           ]);
           /*
           libPath = with pkgs; lib.makeLibraryPath [

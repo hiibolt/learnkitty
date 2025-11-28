@@ -2,3 +2,4 @@
 /target
 .envrc
 *.md
+node_modules
