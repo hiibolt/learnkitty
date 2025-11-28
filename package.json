@@ -1,0 +1,8 @@
+{
+  "name": "learnkitty",
+  "version": "0.1.0",
+  "workspaces": [
+    "learnkitty-lib",
+    "learnkitty-frontend"
+  ]
+}
