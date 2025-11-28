@@ -3,3 +3,5 @@
 .envrc
 *.md
 node_modules
+database.json
+database.json
