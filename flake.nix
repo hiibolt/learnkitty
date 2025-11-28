@@ -22,11 +22,11 @@
         localRustBuild = rustPlatform.buildRustPackage rec {
           pname = "app";
           version = "0.0.1";
-          src = ./learnkitty-backend/.;
+          src = ./.;
           cargoBuildFlags = "";
 
           cargoLock = {
-            lockFile = ./learnkitty-backend/Cargo.lock;
+            lockFile = ./Cargo.lock;
           };
 
           nativeBuildInputs = [ (rustVersion.override { extensions = ["rust-src"]; }) ] ++ (with pkgs; [ 

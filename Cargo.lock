@@ -840,6 +840,7 @@ dependencies = [
  "axum",
  "chrono",
  "futures",
+ "learnkitty-lib",
  "serde",
  "serde_json",
  "tokio",
@@ -854,6 +855,9 @@ dependencies = [
 [[package]]
 name = "learnkitty-lib"
 version = "0.1.0"
+dependencies = [
+ "serde",
+]
 
 [[package]]
 name = "libc"
