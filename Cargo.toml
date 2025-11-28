@@ -7,6 +7,7 @@ members = [
 
 [workspace.dependencies]
 learnkitty-lib = { path = "./learnkitty-lib" }
+ts-rs = { path = "../ts-rs/ts-rs" }
 anyhow = "1.0"
 async-openai = { version = "0.31.0-beta", features = ["full"] }
 serde = { version = "1.0", features = ["derive"] }
