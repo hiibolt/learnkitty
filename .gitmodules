@@ -1,0 +1,11 @@
+[submodule "learnkitty-backend"]
+path = learnkitty-backend
+url = https://github.com/hiibolt/learnkitty-backend.git
+
+[submodule "learnkitty-frontend"]
+path = learnkitty-frontend
+url = https://github.com/hiibolt/learnkitty-frontend.git
+
+[submodule "learnkitty-lib"]
+path = learnkitty-lib
+url = https://github.com/hiibolt/learnkitty-lib.git
