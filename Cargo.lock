@@ -64,9 +64,9 @@ dependencies = [
 
 [[package]]
 name = "async-openai"
-version = "0.31.0-beta.1"
+version = "0.31.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "982594d270225b729dc02c780a9ecac605639d06910471492b94b6464ccfd49b"
+checksum = "1cc4c602409022b854d89332fae01a6c69a4122fdd0ec66a071b9b5c3a87750b"
 dependencies = [
  "async-openai-macros",
  "backoff",
@@ -1314,6 +1314,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "learnkitty-api"
+version = "0.1.0"
+dependencies = [
+ "paste",
+ "serde",
+ "ts-rs",
+]
+
+[[package]]
 name = "learnkitty-backend"
 version = "0.1.0"
 dependencies = [
@@ -1323,7 +1332,7 @@ dependencies = [
  "chrono",
  "futures",
  "jsonwebtoken",
- "learnkitty-lib",
+ "learnkitty-api",
  "reqwest",
  "serde",
  "serde_json",
@@ -1335,15 +1344,6 @@ dependencies = [
  "tracing",
  "tracing-subscriber",
  "uuid",
-]
-
-[[package]]
-name = "learnkitty-lib"
-version = "0.1.0"
-dependencies = [
- "paste",
- "serde",
- "ts-rs",
 ]
 
 [[package]]

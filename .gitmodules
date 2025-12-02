@@ -6,6 +6,6 @@ url = https://github.com/hiibolt/learnkitty-backend.git
 path = learnkitty-frontend
 url = https://github.com/hiibolt/learnkitty-frontend.git
 
-[submodule "learnkitty-lib"]
-path = learnkitty-lib
-url = https://github.com/hiibolt/learnkitty-lib.git
+[submodule "learnkitty-api"]
+path = learnkitty-api
+url = https://github.com/hiibolt/learnkitty-api.git
