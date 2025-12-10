@@ -9,3 +9,7 @@ url = https://github.com/hiibolt/learnkitty-frontend.git
 [submodule "learnkitty-api"]
 path = learnkitty-api
 url = https://github.com/hiibolt/learnkitty-api.git
+
+[submodule "learnkitty-api-macros"]
+path = learnkitty-api-macros
+url = https://github.com/hiibolt/learnkitty-api-macros.git
