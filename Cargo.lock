@@ -1332,19 +1332,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "learnkitty-api"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "convert_case",
- "learnkitty-api-macros",
- "paste",
- "serde",
- "ts-rs",
- "uuid",
-]
-
-[[package]]
 name = "learnkitty-api-macros"
 version = "0.1.0"
 dependencies = [
@@ -1361,9 +1348,10 @@ dependencies = [
  "async-openai",
  "axum",
  "chrono",
+ "convert_case",
  "futures",
  "jsonwebtoken",
- "learnkitty-api",
+ "learnkitty-api-macros",
  "reqwest",
  "serde",
  "serde_json",
@@ -1375,6 +1363,7 @@ dependencies = [
  "tower-http",
  "tracing",
  "tracing-subscriber",
+ "ts-rs",
  "uuid",
 ]
 
@@ -1702,12 +1691,6 @@ dependencies = [
  "smallvec",
  "windows-link",
 ]
-
-[[package]]
-name = "paste"
-version = "1.0.15"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a"
 
 [[package]]
 name = "pem"
