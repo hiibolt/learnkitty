@@ -1,8 +1,17 @@
 {
-    "servers": {
-        "supabase": {
-            "type": "http",
-            "url": "https://mcp.supabase.com/mcp?project_ref=rnilnwxcufyelphvlayh"
-        }
-    }
+	"servers": {
+		"supabase": {
+			"type": "http",
+			"url": "https://mcp.supabase.com/mcp?project_ref=rnilnwxcufyelphvlayh"
+		},
+		"svelte": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"-y",
+				"@sveltejs/mcp"
+			]
+		}
+	},
+	"inputs": []
 }
