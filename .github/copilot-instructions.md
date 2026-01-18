@@ -104,6 +104,12 @@ cargo test
 BUILD_TS_CLIENT=1 cargo run
 ```
 
+**⚠️ CRITICAL: DO NOT MANUALLY CREATE/EDIT CLIENT TYPES!**
+- TypeScript types in `learnkitty-api/learnkitty-typescript-api/` are **auto-generated**
+- Running `cargo test` will **overwrite/delete** any manual changes
+- To add new types: Create Rust structs in backend with `#[derive(TS)]`, then run `cargo test`
+- Never manually create `.ts` files in the `learnkitty-typescript-api/` directory
+
 ### Database & Auth
 - Supabase for authentication and PostgreSQL
 - JWT tokens passed in headers
@@ -153,8 +159,10 @@ ln -s "$HOME/Development/learnkitty/learnkitty-api/learnkitty-typescript-api" \
 1. Define request/response types in backend with `#[derive(Serialize, Deserialize, TS)]`
 2. Create handler using API macros
 3. Register route in `api/router()`
-4. Run `cargo test` to generate TypeScript client
+4. Run `cargo test` to generate TypeScript client **automatically**
 5. Import and use in frontend via `learnkitty_client`
+
+**Note:** Steps 1-4 happen in the backend. Never manually create TypeScript types - they're auto-generated!
 
 ### Creating a New Page
 1. Create `+page.svelte` in `src/routes/your-route/`
