@@ -2,4 +2,5 @@
 /target
 .envrc
 *.md
+!README.md
 node_modules
