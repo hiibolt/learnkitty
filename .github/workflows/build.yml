@@ -96,3 +96,4 @@ jobs:
           build-args: |
             PUBLIC_SUPABASE_URL=${{ secrets.PUBLIC_SUPABASE_URL }}
             PUBLIC_SUPABASE_PUBLISHABLE_KEY=${{ secrets.PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
+            PUBLIC_API_BASE_URL=${{ secrets.PUBLIC_API_BASE_URL }}
