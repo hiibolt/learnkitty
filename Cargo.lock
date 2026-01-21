@@ -1352,6 +1352,7 @@ dependencies = [
  "futures",
  "jsonwebtoken",
  "learnkitty-api-macros",
+ "rand 0.8.5",
  "reqwest",
  "serde",
  "serde_json",
