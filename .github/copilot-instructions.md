@@ -71,7 +71,7 @@ $effect(() => {                     // Side effects
 - `src/components/`: Reusable components
   - `quiz/questions/`: Question type components
   - `kitty-chat.svelte`: AI chat interface
-  - `header.svelte`, `modal.svelte`: UI components
+  - `modal.svelte`: UI components
 
 ### API Client Usage
 ```typescript
